@@ -1,0 +1,25 @@
+Package: RUCCDS
+Type: Package
+Title: Function package for RUCCDS
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Tianxiang",
+           family = "Liu",
+           role = c("aut", "cre"),
+           email = "ahchltx@163.com"),
+      person(given = "Ruxue",
+           family = "Wu",
+           role = c("aut"),
+           email = "wrx0104@ruc.edu.cn"))
+Author: Tianxiang Liu [aut, cre], Ruxue Wu [aut]
+Maintainer: Tianxiang Liu <ahchltx@163.com>
+Description: Several functions used for the work of RUCCDS.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.1.2
+Depends: R(>= 3.6.0)
+Imports: ggplot2
+NeedsCompilation: no
