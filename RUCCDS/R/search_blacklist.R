@@ -12,12 +12,12 @@ search_blacklist <- function(blacklist, meal.notice){
   name.list <- 1:2
   for(j in 1:nrow(meal.notice)){
     if(meal.notice[j, 1]%in%pen$name == T){
-      newmeal.notice <- meal.notice[-j, ]
+      meal.notice <- meal.notice[-j, ]
       name.list <- append(name.list, meal.notice[j, 1])
     }
   }
   name.list <- name.list[-c(1,2)]
   cat(paste0(c("下列人员需要通知取消用餐资格一次：",name.list),"\n",collapse = " "))
   cat(paste0("新名单需要递补",length(name.list),"人"))
-  return(newmeal.notice)
+  return(meal.notice)
 }
