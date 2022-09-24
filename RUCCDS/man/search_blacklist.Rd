@@ -2,18 +2,18 @@
 % Please edit documentation in R/search_blacklist.R
 \name{search_blacklist}
 \alias{search_blacklist}
-\title{Search blacklist and update enrollment form}
+\title{Search blacklist and update meal.notice}
 \usage{
-search_blacklist(blacklist, form)
+search_blacklist(blacklist, meal.notice)
 }
 \arguments{
 \item{blacklist}{The CDS blacklist: An object read by readxl package}
 
-\item{form}{Enrollment form of CDS lectures: An object read by readxl package}
+\item{meal.notice}{Enrollment meal.notice of CDS lectures: An object read by readxl package}
 }
 \value{
-Updated enrollment form
+Updated meal.notice
 }
 \description{
-To remove names on the blacklist from the enrollment form. There is no one need to be removed if no object returned.
+To remove names on the blacklist from the meal.notice. There is no one need to be removed if no object returned.
 }

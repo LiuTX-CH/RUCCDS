@@ -4,16 +4,16 @@
 \alias{preupdate_blacklist}
 \title{Update penalty blacklist before the lecture}
 \usage{
-preupdate_blacklist(blacklist, form)
+preupdate_blacklist(blacklist, meal.notice)
 }
 \arguments{
 \item{blacklist}{The CDS blacklist: An object read by readxl package}
 
-\item{form}{Enrollment form of CDS lectures: An object read by readxl package}
+\item{meal.notice}{Enrollment meal.notice of CDS lectures: An object read by readxl package}
 }
 \value{
 Updated blacklist
 }
 \description{
-To update the penalty blacklist when someone had been punished（removed from the enrollment form）
+To update the penalty blacklist when someone had been punished（removed from the enrollment meal.notice）
 }

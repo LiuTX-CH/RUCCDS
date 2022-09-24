@@ -4,12 +4,12 @@
 \alias{postupdate_blacklist}
 \title{Update blacklist after the lecture}
 \usage{
-postupdate_blacklist(blacklist, newblack)
+postupdate_blacklist(blacklist, newblacklist)
 }
 \arguments{
 \item{blacklist}{The CDS blacklist: An object read by readxl package}
 
-\item{newblack}{Names needed to be put on blacklist: An object read by readxl package}
+\item{newblacklist}{Names needed to be put on blacklist: An object read by readxl package}
 }
 \value{
 Updated blacklist

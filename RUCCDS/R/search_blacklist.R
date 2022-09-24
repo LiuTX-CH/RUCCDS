@@ -1,8 +1,8 @@
-#' @title Search blacklist and update enrollment meal.notice
-#' @description To remove names on the blacklist from the enrollment meal.notice. There is no one need to be removed if no object returned.
+#' @title Search blacklist and update meal.notice
+#' @description To remove names on the blacklist from the meal.notice. There is no one need to be removed if no object returned.
 #' @param blacklist The CDS blacklist: An object read by readxl package
 #' @param meal.notice Enrollment meal.notice of CDS lectures: An object read by readxl package
-#' @return Updated enrollment meal.notice
+#' @return Updated meal.notice
 #' @export
 #'
 search_blacklist <- function(blacklist, meal.notice){
