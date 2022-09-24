@@ -9,11 +9,11 @@ preupdate_blacklist(blacklist, meal.notice)
 \arguments{
 \item{blacklist}{The CDS blacklist: An object read by readxl package}
 
-\item{meal.notice}{Enrollment meal.notice of CDS lectures: An object read by readxl package}
+\item{meal.notice}{meal.notice of CDS lectures: An object read by readxl package}
 }
 \value{
 Updated blacklist
 }
 \description{
-To update the penalty blacklist when someone had been punished（removed from the enrollment meal.notice）
+To update the penalty blacklist when someone had been punished（removed from the meal.notice）
 }

@@ -9,11 +9,11 @@ search_blacklist(blacklist, meal.notice)
 \arguments{
 \item{blacklist}{The CDS blacklist: An object read by readxl package}
 
-\item{meal.notice}{Enrollment meal.notice of CDS lectures: An object read by readxl package}
+\item{meal.notice}{meal.notice of CDS lectures: An object read by readxl package}
 }
 \value{
 Updated meal.notice
 }
 \description{
-To remove names on the blacklist from the meal.notice. There is no one need to be removed if no object returned.
+To remove names on the blacklist from the meal.notice.
 }
